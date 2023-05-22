@@ -1,0 +1,22 @@
+{
+    "name": "jns/test",
+    "description": "pack jns test",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jns",
+            "email": "jns@jns.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Jns\\Test\\": "src/"
+        }
+    }
+}
